@@ -5,9 +5,7 @@ This x86 assembly program computes a mathematical product based on user inputs u
 
 This x86 assembly program calculates a mathematical product based on a user-provided integer input `n`. The program computes the product of terms using the formula:
 
-\[
-\prod_{i=1}^{n} \left((n-i+1) + \frac{1}{i}\right)
-\]
+Product = [(n + 1/1) × ((n - 1) + 1/2) × ((n - 2) + 1/3) × ... × (2 + 1/(n-1)) × (1 + 1/n)]
 
 For example, if the user inputs `n = 3`, the program computes:
 
